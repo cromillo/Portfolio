@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.titleName {
+  font-family: 'Rock Salt', cursive;
+}
+
+.backgroundimg1 {
+  background-image: url('img/abstract-wave.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.backgroundimg2 {
+  background-image: url('img/abstract-wave.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.backgroundimg3 {
+  background-image: url('img/abstract-wave.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  height: 150vh;
+  width: 100%;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 200px;
+}
+
+.portfolioContainer {
+  height: 900px;
+}
+
+
+.eatOurPizzaText {
+  position: relative;
+ 
+  padding-top: 0px;
+}
+
+.portPics3 {
+  width: 200px;
+  position: relative;
+  left: -48px;
+  top: -85px;
+}
+
+.portPics4 {
+  width: 200px;
+  position: relative;
+  left: -48px;
+  top: -85px;
+}
+
+.portPics5 {
+  width: 200px;
+  position: relative;
+  left: -48px;
+  top: -85px;
+  
+}
+
+.lla {
+  margin-top: -16px;
+}
+
+.portCards {
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+.tab {
+  margin-bottom: -50px;
+  position: relative;
+  right: 20px;
+}
+
+/* Media Query with max-width 780px*/
+@media screen and (max-width: 780px){
+
+  .backgroundimg1 {
+  height: 250vh;
+  width: 100%;
+}
+
+  .backgroundimg2 {
+  height: 250vh;
+  width: 100%;
+}
+
+  .backgroundimg3 {
+  height: 250vh;
+  width: 100%;
+}
+
+.img-thumbnail {
+   
+  max-width: 50%;
+  height: auto;
+  position: relative;
+  left: 25%;
+  
+}
+ 
+ p { font-size: 1;
+    margin-top: 20px;
+
+ }
+
+ .cats {
+  position: relative;
+  right: 18%;
+ }
+
+ .catsCaption {
+  position: relative;
+  right: 86px;
+ }
+
+ .crossfit {
+  position: relative;
+  left: 20%;
+}
+
+.crossfitCaption {
+  position: relative;
+  left: 95px;
+}
+
+.lgbtq {
+  position: relative;
+  right: 18%;
+ }
+
+ .lgbtqCaption {
+  position: relative;
+  right: 86px;
+ }
+
+ .football {
+  position: relative;
+  left: 20%;
+}
+
+.footballCaption {
+  position: relative;
+  left: 95px;
+}
+
+  .homeReno {
+    position: relative;
+    right: 18%;
+   }
+  
+   .homeRenoCaption {
+    position: relative;
+    right: 86px;
+   }
+
+/* Media Query with max-width 400px*/
+
+ @media screen and (max-width: 400px){
+
+  h1 {text-align: left;
+  }
+
+  p {font-size: 18px;
+  }
+
+ .img-thumbnail {
+   max-width: 75%;
+   position: relative;
+   left: 12.5%;
+ }
+
+ .cats {
+  max-width: 90%;
+  height: auto;
+ position: relative;
+ left: -6.5%;
+}
+
+.catsCaption {
+ position: relative;
+ left: -20px;
+ bottom:-10px;
+ width: 200px;
+}
+
+.crossfit {
+  max-width: 90%;
+  height: auto;
+ position: relative;
+ left: 0%;
+
+}
+
+.crossfitCaption {
+ position: relative;
+ left: 0px;
+ width: 200px;
+ bottom: -10px
+}
+
+.lgbtq {
+  max-width: 90%;
+  height: auto;
+ position: relative;
+ left: -6.5%;
+}
+
+.lgbtqCaption {
+ position: relative;
+ left: -20px;
+ bottom:-10px;
+ width: 200px;
+}
+
+.football {
+  max-width: 90%;
+  height: auto;
+ position: relative;
+ left: 0%;
+}
+
+.footballCaption {
+ position: relative;
+ left: 0px;
+ width: 200px;
+ bottom: -10px
+ 
+}
+
+ .homeReno {
+  max-width: 90%;
+  height: auto;
+ position: relative;
+ left: -6.5%;
+  }
+ 
+  .homeRenoCaption {
+ position: relative;
+ left: -20px;
+ bottom:-10px;
+ width: 200px;
+  }
